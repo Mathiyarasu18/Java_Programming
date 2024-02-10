@@ -6,7 +6,6 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine().trim();
-        // Write your code here.
         ArrayList<String> list=new ArrayList<>();
         String temp="";
         int count=0,flag=0,flag2=0;
