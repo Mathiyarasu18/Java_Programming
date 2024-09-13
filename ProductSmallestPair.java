@@ -15,9 +15,11 @@ public class Main
    }
   
 	public static void main(String[] args) {
-		int sum=3;
-		int arr[] = {9,8,3,7,3,9};
-	
+		int sum=9;
+		int arr[] = {5,2,4,3,9,7,1};
 		System.out.println(ProductSmallestPair(sum,arr));
 	}
 }
+
+//Pair of least two element is (2, 1) 2 + 1 = 3 < 9, Product of (2, 1) 2*1 = 2. Thus, output is 2
+
